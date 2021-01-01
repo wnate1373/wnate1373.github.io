@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Lillian's Personal Website</title>
+<title>Nates's Personal Website</title>
 <meta charset="UTF-8">
 
 <!--
@@ -8,35 +8,34 @@ Check out this link to see the various class names you can use with w3
 https://www.w3schools.com/w3css/4/w3.css
 -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="colors.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel = "stylesheet"
    type = "text/css"
    href = "index.css" />
 
-<body class="w3-white">
-
+<body class="w3-navy">
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+<nav class="w3-sidebar w3-navy w3-bar-block w3-small w3-hide-small w3-center">
   <!-- Link to font awesome icons https://fontawesome.com/v4.7.0/icons/ just change the name after fa- and it will change the icon! -->
-  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-navy">
     <i class="fa fa-home w3-xxlarge"></i>
     <p>HOME</p>
   </a>
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-navy">
     <i class="fa fa-user w3-xxlarge"></i>
     <p>ABOUT</p>
   </a>
-  <a href="#education" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="#education" class="w3-bar-item w3-button w3-padding-large w3-hover-navy">
     <i class="fa fa-book w3-xxlarge"></i>
     <p>EDUCATION</p>
   </a>
-  <a href="#experience" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="#experience" class="w3-bar-item w3-button w3-padding-large w3-hover-navy">
     <i class="fa fa-cog w3-xxlarge"></i>
     <p>EXPERIENCE</p>
   </a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-navy">
     <i class="fa fa-envelope w3-xxlarge"></i>
     <p>CONTACT</p>
   </a>
@@ -55,96 +54,133 @@ https://www.w3schools.com/w3css/4/w3.css
 <!-- Page Content -->
 <div class="w3-padding-large" id="main">
   <!-- Header/Home -->
-  <header class="w3-container w3-padding-32 w3-center w3-white" id="home">
-    <h1 class="w3-jumbo">I'm Nate.</h1>
-    <p>Student at The University of Michigan.</p>
-    <img src="./llama-1.png" alt="boy" class="w3-image" width="200" height="200">
+  <header class="w3-container w3-padding-32 w3-center w3-navy" id="home">
+    <h1 class="w3-text-maize">hey there, i'm nate.</h1>
+    <p>student and research assistant at michigan.</p>
+    <img src="./Michigan.png" alt="boy" class="w3-image" width="200" height="200">
   </header>
 
   <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-black">About Me</h2>
+  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="about">
+    <h2 class="w3-text-maize">about me</h2>
     <hr style="width:200px" class="w3-opacity">
     <!-- EDIT THIS SECTION TO CHANGE YOUR ABOUT ME -->
-    <p> Hello! My name is Lillian. I am a Freshman at The University of Michigan currently pursuing a Computer Science major through the College of Literature, Science, and the Arts. I am very passionate about contributing back to my community and helping teach others about computer science. In addition to computer science I have a large interest in education and art. My hobbies include cooking, long trots in the Arb, and the occassional yoga class. On campus you can often find me heading to class, hanging out with the squirrels in the Diag or exploring around North Campus!
+    <p> Hello! My name is Nathaniel White. Born in Concord, Massachusetts, I'm currently a Freshman at
+      The University of Michigan currently pursuing a Chemistry major and Computer Science minor through
+      the College of Literature, Science, and the Arts. I'm passionate about applying my interests at the intersection of
+      science and technology in order to help others. Outside of class, I like to work on personal computer science projects,
+      such as this website, and to keep physically active through weight training and Fencing.
     <br />
-    This year I have just completed an introductory computer science course offered at UofM. Within this course  I was able to not only learn how to build several projects including a simulated elevator game, I was also given strong foundational skills on how to approach programming problems. The course was taught in C++ and I was able to work with a variety of group members throughout the semester. From this class and my others I have gained the ability to collaborate effectively despite the difficult virtual setting of the class.
-    </p>
 
+  </p> My Links:
+  </p>
+  <a href="https://github.com/wnate1373" target = "_blank">
+  <img src="GitHub-Logo-White.png"  style="width:100px;height:42px;">
+  </a>
+  </p>
+  <a href="https://www.linkedin.com/in/nathaniel-white-/" target = "_blank">
+  <img src="LinkedIn-Logo.png"  style="width:42px;height:42px;">
+  </a>
+    </p>
+  <a href="https://www.linkedin.com/in/nathaniel-white-/" target = "_blank">
+  <img src="Resume-Image.png"  style="width:42px;height:42px;">
+  </a>
   <!-- End About Section -->
-  </div>
+
+
 
   <!-- Education Section -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="education">
-    <h2 class="w3-text-black">Education</h2>
+  <div class="w3-padding-64 w3-content w3-text-white" id="education">
+    <h2 class="w3-text-maize">education</h2>
     <hr style="width:200px" class="w3-opacity">
     <!-- EDIT THIS SECTION TO CHANGE YOUR College info -->
     <h3><b>University of Michigan Ann Arbor</b></h3>
     College of Literature, Science and the Arts
-    <p><i>Class of 2021</i></p>
+    <p><i>Class of 2024</i></p>
     <ul>
-      <li>Focusing in Computer Science in the College of Literature, Science and the Arts</li>
-      <li>Courses Taken: Elementary Programming Concepts, Introduction to Psychology, </li>
-      <li>Organizations: GEECS, Michigan Squirrel Club</li>
+      <li>Major in Chemistry and minor in Computer Science in the College of Literature, Science and the Arts</li>
+      <li>Relevant Coursework: EECS 183: Elementary Programming Concepts, Math 116: Calculus II, AP Physics, AP Biology </li>
+      <li>Organizations: Michigan Fencing Club, FYE Advisory Board, Michigan Research and Discovery Scholars </li>
     </ul>
     <hr style="width:200px" class="w3-opacity">
     <!-- EDIT THIS SECTION TO CHANGE YOUR High School Info-->
-    <h3><b>Farmville High School</b></h3>
-    <i>Class of 2017</i>
+    <h3><b>Concord Carlisle High School</b></h3>
+    <i>Class of 2020</i>
     <ul>
-      <li>Involved with a number of student organizations such as Key Club and Best Buddies</li>
-      <li>Member of the Varsity Water Polo team for all four years</li>
-      <li>Completed three Advanced Placement classes in US History, Computer Science, and English Literature</li>
+      <li>Founder and President of Chemistry Club</li>
+      <li>Captain of the Varsity Fencing team</li>
+      <li>Host of Weekly Current Events Radio Show and Podcast</li>
     </ul>
   <!-- End Education Section -->
   </div>
 
 
   <!-- Experience Section -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="experience">
-    <h2 class="w3-text-black">Experience</h2>
+  <div class="w3-padding-64 w3-content w3-text-white" id="experience">
+    <h2 class="w3-text-maize">experience</h2>
     <hr style="width:200px" class="w3-opacity">
     <!-- EDIT THIS SECTION TO CHANGE One experience section -->
-    <h3><b>Freelance Tutoring</b></h3>
-    <p><i>May 2015 - 2017</i></p>
+    <h3><b>Gray Associates Higher Ed. Consulting - Intern</b></h3>
+    <p><i>June 2020 - September 2020</i></p>
     <ul>
-      <li>Offered one on one assistance to students in biology and chemistry</li>
-      <li>Structured learning plans for each student to ensure understanding of material</li>
-      <li>Became well respected amongst peers for dedictation to helping others learn</li>
+      <li>Wrote weekly blogs analyzing and predicting trends in job market data</li>
+      <li>Utilized Gray Associates' Programs Database to organize and display emerging programs</li>
+      <li>Used job market data to create targeted advertisments for Gray's services</li>
     </ul>
     <hr style="width:200px" class="w3-opacity">
     <!-- EDIT THIS SECTION TO CHANGE One experience section -->
-    <h3><b>Best Buddies Executive Board</b></h3>
+    <h3><b>Geochemistry Research Lab - Research Assistant</b></h3>
     <p><i>August 2016 - May 2017</i></p>
     <ul>
-      <li>Voted to executive board of club by my peers due to high level of involvement</li>
-      <li>During tenure helped to increase number of activities indiviudals could participate in</li>
-      <li>Strengthened bond with many vendors and third-party supporters of Best Buddies</li>
+      <li>Assist in a variety of daily laboratory tasks under the direction of Dr. Jie Li</li>
+      <li>Designed and implemented new circuitry and control systems for the lab's multi-anvil press</li>
+      <li>Explored topics relating to the origin and evolution of geomagnetic dynamos in terrestrial planets and
+      their implications</li>
     </ul>
+    <br />
+
+    <div class="w3-padding-64 w3-content w3-text-white" id="experience">
+      <h2 class="w3-text-maize">projects</h2>
+      <hr style="width:100px" class="w3-opacity">
+      <!-- EDIT THIS SECTION TO CHANGE One experience section -->
+      <h3><b>LiftBot - Telegram Chat Bot</b></h3>
+        <p> An open-source chat bot that allows easy recording of gym routines in order to track progress! Based in the popular messaging app Telegram, it uses the google sheets API in order to communicate with a spreadsheet, opening up possibilities for progress tracking through graphs and charts over time. Interaction with the bot is facilitated through easy-to-use menus that are built-in to the telegram app. App deployment and hosting is done through Heroku. Full code and associated files can be found on my GitHub!
+<br />
+<p>
+      <img src="liftBot.png" alt="Trulli" width="240" height="300">
+      <img src="liftBot-Code.png" alt="Trulli" width="450" height="300">
 
 
-  <!-- End Experiencee Section -->
-  </div>
+
+
+
+
+
+
+
+
+  <!-- End Experience Section -->
+
+
 
   <!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-    <h2 class="w3-text-grey">Contact Me</h2>
+  <div class="w3-padding-64 w3-content w3-text-white" id="contact">
+    <h2 class="w3-text-maize">contact me</h2>
     <hr style="width:200px" class="w3-opacity">
     <p>I am always open to chat about new opportunities and my passions.
       <br />
-      Feel free to reach out to me at any of these links</p>
+      Feel free to reach out to me via phone or email!</p>
       <!-- EDIT THIS SECTION TO CHANGE your contact information -->
     <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Ann Arbor, MI</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +1 (234)-567-8900 </p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: lillian@umich.edu</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +1 (978)-902-2286 </p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: wnate@umich.edu</p>
     </div><br>
 
   <!-- End Contact Section -->
   </div>
 
     <!-- Footer -->
-  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+  <footer class="w3-content w3-padding-64 w3-text-white w3-xlarge">
 
     <!-- SOCIAL MEDIA ICONS (uncomment if you want them )-->
     <!--
